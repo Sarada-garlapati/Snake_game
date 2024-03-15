@@ -89,5 +89,5 @@ const initGame = () => {
 }
 
 updateFoodPosition();
-setIntervalId = setInterval(initGame,700 );
+setIntervalId = setInterval(initGame,350 );
 document.addEventListener("keyup", changeDirection);
